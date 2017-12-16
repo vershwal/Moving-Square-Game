@@ -1,0 +1,17 @@
+body
+{
+	background:#A0A0A0;
+	font-family:verdana;
+	text-align:center;
+	padding-top:30px;
+}
+
+canvas
+{
+	border-radius: 10px
+}
+
+h2
+{
+	color: #6BD681;
+}
