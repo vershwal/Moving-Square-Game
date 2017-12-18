@@ -62,6 +62,15 @@ function component(width, height, color, x, y) {
 	this.position = function() {
         this.x += this.posX;
         this.y += this.posY;
+        var mytop = this.y;
+        var mybottom = this.y + (this.height);
+        if(mybottom <= 30) {
+            this.y = 370;
+        }
+        if(mytop >=370) {
+            this.y = 0;
+        }
+
     } 
     this.hit = function(obj2) {
         var myleft = this.x;
